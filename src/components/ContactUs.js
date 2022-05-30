@@ -140,7 +140,7 @@ export const Email = () => {
             </form>
           </div>
           <div className="col-md-1"></div>
-          <div className="col-md-5">
+          <div className="col-md-5 contact__right">
             <br />
             <p className="contact__text">
               <FontAwesomeIcon className="contact__icon" icon={faLocationDot} />
@@ -157,7 +157,7 @@ export const Email = () => {
             <hr className="contact__hr-right" />
 
             <div className="contact__media">
-              <ul className="list-unstyled">
+              <ul className="list-unstyled contact__ul">
                 <li>
                   <a href="#">
                     <FontAwesomeIcon
